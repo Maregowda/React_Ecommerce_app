@@ -1,0 +1,35 @@
+.profile-container {
+    padding: 20px;
+  }
+  
+  .profile-info {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .profile-details {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .profile-avatar {
+    flex: 1; /* Adjust the image container to take up available space */
+    margin-right: 20px;
+  }
+  
+  .profile-avatar img {
+    width: 100%;
+    max-height: 300px; /* Set maximum height for the image */
+    border-radius: 10px; /* Adjust border radius as needed */
+    object-fit: cover; /* Ensure the image covers the container */
+  }
+  
+  .profile-text {
+    flex: 2; /* Adjust the text container to take up available space */
+  }
+  
+  .profile-text p {
+    margin: 5px 0;
+  }
+  

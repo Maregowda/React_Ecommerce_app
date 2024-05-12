@@ -1,0 +1,64 @@
+/* Container for the header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff
+  }
+  
+  /* Logo styling */
+  .brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Search bar styling */
+  .search-bar input{
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  .search-bar button {
+    width: 100px;
+    margin: 10px;
+  }
+  .icons {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .profileicons {
+    padding: 3px;
+    cursor: pointer;
+    margin: 40px;
+  }
+
+  .carticons {
+    position: relative; /* Ensure relative positioning for absolute positioning of count */
+    cursor: pointer;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -10px; /* Adjust as needed */
+    right: -10px; /* Adjust as needed */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  
